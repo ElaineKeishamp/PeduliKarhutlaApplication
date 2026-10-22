@@ -168,4 +168,3 @@ php artisan test
 File `.env` berisi pengaturan lokal dan tidak disertakan di repository. Setelah menyalin `.env.example`, setiap pengguna perlu mengatur koneksi database dan membuat `APP_KEY` sendiri.
 
 Aplikasi ini disiapkan untuk demonstrasi dan pengujian lokal. Pembayaran Sandbox maupun simulasi bukan transaksi sungguhan.
-```
