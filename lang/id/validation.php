@@ -1,0 +1,48 @@
+<?php
+
+return [
+    'accepted' => ':attribute harus disetujui.',
+    'active_url' => ':attribute bukan URL yang valid.',
+    'after' => ':attribute harus berisi tanggal setelah :date.',
+    'after_or_equal' => ':attribute harus berisi tanggal setelah atau sama dengan :date.',
+    'alpha' => ':attribute hanya boleh berisi huruf.',
+    'alpha_num' => ':attribute hanya boleh berisi huruf dan angka.',
+    'array' => ':attribute harus berupa daftar.',
+    'before' => ':attribute harus berisi tanggal sebelum :date.',
+    'before_or_equal' => ':attribute harus berisi tanggal sebelum atau sama dengan :date.',
+    'between' => [
+        'array' => ':attribute harus memiliki :min sampai :max item.',
+        'file' => 'Ukuran :attribute harus antara :min sampai :max kilobita.',
+        'numeric' => ':attribute harus bernilai antara :min sampai :max.',
+        'string' => ':attribute harus memiliki :min sampai :max karakter.',
+    ],
+    'boolean' => 'Kolom :attribute harus bernilai benar atau salah.',
+    'confirmed' => 'Konfirmasi :attribute tidak sama.',
+    'date' => ':attribute bukan tanggal yang valid.',
+    'email' => ':attribute harus berupa alamat email yang valid.',
+    'exists' => ':attribute yang dipilih tidak valid.',
+    'file' => ':attribute harus berupa berkas.',
+    'image' => ':attribute harus berupa gambar.',
+    'in' => ':attribute yang dipilih tidak valid.',
+    'integer' => ':attribute harus berupa bilangan bulat.',
+    'max' => [
+        'array' => ':attribute tidak boleh berisi lebih dari :max item.',
+        'file' => 'Ukuran :attribute tidak boleh lebih dari :max kilobita.',
+        'numeric' => ':attribute tidak boleh lebih dari :max.',
+        'string' => ':attribute tidak boleh lebih dari :max karakter.',
+    ],
+    'min' => [
+        'array' => ':attribute setidaknya harus berisi :min item.',
+        'file' => 'Ukuran :attribute setidaknya :min kilobita.',
+        'numeric' => ':attribute setidaknya bernilai :min.',
+        'string' => ':attribute harus terdiri dari minimal :min karakter.',
+    ],
+    'numeric' => ':attribute harus berupa angka.',
+    'required' => 'Kolom :attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'unique' => ':attribute sudah digunakan.',
+    'url' => ':attribute harus berupa URL yang valid.',
+    'attributes' => [
+        'email' => 'email', 'name' => 'nama', 'password' => 'kata sandi', 'password_confirmation' => 'konfirmasi kata sandi',
+    ],
+];

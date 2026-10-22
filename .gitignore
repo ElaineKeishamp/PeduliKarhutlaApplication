@@ -1,0 +1,46 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment and secrets
+/.env
+/.env.*
+!/.env.example
+/auth.json
+
+# Laravel generated files
+/public/build/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/bootstrap/cache/*.php
+
+# Test and tool caches
+/.phpunit.cache/
+/.phpunit.result.cache
+/.phpactor.json
+
+# Local environment files
+/Homestead.json
+/Homestead.yaml
+/.fleet/
+/.idea/
+/.nova/
+/.vscode/
+/.zed/
+
+# Logs and package manager debug files
+/npm-debug.log
+/yarn-error.log
+/pnpm-debug.log
+
+# Local project-only files
+/qa_reference/
+
+# Temporary operating system and Draw.io files
+.DS_Store
+Thumbs.db
+*.drawio.bkp
+.$*.drawio.bkp
+.$*.drawio.dtmp
